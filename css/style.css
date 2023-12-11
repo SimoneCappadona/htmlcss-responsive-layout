@@ -111,11 +111,82 @@ a {
   height: 100%;
 }
 
+/* Planning */
+#planning {
+  background-color: var(--primary-color);
+  /* debug */
+  height: 500px;
+  margin-top: 80px;
+}
+
+.card-planning {
+  display: flex;
+  justify-content: space-around;
+  height: 450px;
+  align-items: center;
+}
+.card-white-end {
+  display: flex;
+  height: 250px;
+  align-items: flex-end;
+}
+/* Testimonials */
+
+#testimonial {
+}
+
+.text-testimonial {
+  text-align: center;
+
+  /* degub */
+  padding: 70px;
+}
+
+.card-testimonial {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+
+  margin-bottom: 100px;
+  border: 2px solid black;
+}
+
+/* benefit */
+
+#benefit {
+  background-color: var(--primary-color);
+  width: 100%;
+}
+#benefit .card {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.title-white {
+  padding-top: 25px;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+}
+.col-1-3 {
+  width: calc(100% / 3 - 20px);
+  border: 2px solid black;
+  height: 400px;
+  margin: 10px;
+}
+
+/* footer */
+#footer {
+  height: 500px;
+  width: 100%;
+}
 /* tablet media */
 @media screen and (max-width: 768px) {
   #demo-app .card .col {
     width: 100%;
-
     padding-top: 15px;
     padding-bottom: 15px;
   }
